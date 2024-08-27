@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>Assignment</h3>
+</body>
+<script>
+  //Square Root
+  function findSquareRoot(number) {
+    return Math.sqrt(number);
+  }
+let number = 16;
+let result = findSquareRoot(number);
+console.log("The square root of " + number + " is: " + result);
+
+
+  // Function to convert Celsius to Fahrenheit
+function celsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+}
+let celsiusTemperature = 25;
+let fahrenheitTemperature = celsiusToFahrenheit(celsiusTemperature);
+console.log(celsiusTemperature + "°C is equal to " + fahrenheitTemperature + "°F");
+
+
+//Random Integer
+function randum(num) {
+    return randumnumber;
+}
+  let random = Math.floor(Math.random() * 45678);
+    console.log('The Random is :', random)
+
+
+    
+//fibonaci series
+function fibonacci(n) {
+  let fib = [0, 1];
+ for (i = 2; i <= n; i++) {
+ fib[i] = fib[i - 1] + fib[i - 2];
+}
+    return fib;
+  }
+    console.log('Fibonacci series is :', fibonacci(6))
+
+
+ //Palindrom
+ function pall(str){
+  let j = str.length-1
+    for(i=0;i<str.length/2;i++){
+      if(str[i]!=str[j]){
+        return 'not a palindrome';
+}
+  j--;
+}
+  return 'is palindrome';
+        }
+        let name1 = "Himaja";
+        let name2 = "dad";
+        console.log('   name1 is :',pall(name1))
+        console.log('   name2 is :',pall(name2))
+
+ 
+
+
+
+
+
+</script>
+</html>
